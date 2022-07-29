@@ -4,12 +4,9 @@ namespace Banking.Models
 {
     internal class Banker
     {
-        [Key]
-        public long Id { get; set; }
+        public int Id { get; set; }
         
-        [Required]
         public string Name { get; set; }
-        [Required]
         public decimal Salary { get; set; }
         
 
