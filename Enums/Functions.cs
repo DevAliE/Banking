@@ -4,6 +4,7 @@
     {
         CurrencyExchange,
         Cards,
-        Credit
+        Credit,
+        naqtpull
     }
 }
