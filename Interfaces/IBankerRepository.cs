@@ -7,11 +7,11 @@ namespace Banking.Interfaces
     {
         void Create(Banker banker);
 
-        void Update(int id, Banker banker);
+        void Update(long id, Banker banker);
 
-        void Delete(int id);
+        void Delete(long id);
 
-        Banker Get(int id);
+        Banker Get(long id);
 
         List<Banker> GetAll();
     }
