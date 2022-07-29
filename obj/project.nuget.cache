@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SXUkRFgeS5gLlIKG8Ivf2WJTxtrD3uS1q+DGvBoXdh61+ZC2Malc2lX/rMyXaUC2aBDDj7maXSxTJW3mUPJjOQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\muham\\Desktop\\BankWithJson\\Banking\\Banking.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\muham\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

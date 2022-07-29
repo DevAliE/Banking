@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 0,
+    "Name": "Asad",
+    "Salary": 100000.0
+  },
+  {
+    "Id": 1,
+    "Name": "Ali",
+    "Salary": 103000.0
+  },
+  {
+    "Id": 0,
+    "Name": "Vali",
+    "Salary": 12312312.0
+  },
+  {
+    "Id": 3,
+    "Name": "Ali",
+    "Salary": 103000.0
+  },
+  {
+    "Id": 4,
+    "Name": "Asad",
+    "Salary": 100000.0
+  },
+  {
+    "Id": 5,
+    "Name": "Ali",
+    "Salary": 103000.0
+  }
+]
