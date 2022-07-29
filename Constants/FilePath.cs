@@ -2,8 +2,8 @@
 {
     internal class FilePath
     {
-        public const string BANKER_FILE_PATH = "../../../Informations/BankerDatabase.json";
-        public const string CASH_REGISTER_FILE_PATH = "../../../Informations/CashRegisterDatabase.json";
+        public const string BankerFilePath = "../../../Informations/BankerDatabase.json";
+        public const string CashRegisterFilePath = "../../../Informations/CashRegisterDatabase.json";
 
     }
 }

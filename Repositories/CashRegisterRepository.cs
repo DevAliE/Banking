@@ -10,7 +10,7 @@ namespace Banking.Repositories
 {
     internal class CashRegisterRepository : ICashRegisterRepository
     {
-        private string path = Constants.FilePath.CASH_REGISTER_FILE_PATH;
+        private string path = Constants.FilePath.CashRegisterFilePath;
         public void Create(CashRegister cashRegister)
         {
             var lastCashRegister = GetAll().LastOrDefault();

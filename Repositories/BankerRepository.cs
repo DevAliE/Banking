@@ -10,13 +10,14 @@ namespace Banking.Repositories
 {
     internal class BankerRepository : IBankerRepository
     {
-        private readonly string path = Constants.FilePath.BANKER_FILE_PATH;
+        private readonly string path = Constants.FilePath.BankerFilePath;
 
         public void Create(Banker banker)
         {
             var lastBankir = GetAll().LastOrDefault();
-            int id = lastBankir != null ? lastBankir.Id + 1 : 0;
+            long id = lastBankir != null ? lastBankir.Id + 1 : 0;
 
+            
             var bankers = GetAll();
             banker.Id = id;
             bankers.Add(banker);

@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muham\\Desktop\\BankWithJson\\Banking\\Banking.csproj",
+      "projectUniqueName": "C:\\Users\\muham\\Banking\\Banking.csproj",
       "projectName": "Banking",
-      "projectPath": "C:\\Users\\muham\\Desktop\\BankWithJson\\Banking\\Banking.csproj",
+      "projectPath": "C:\\Users\\muham\\Banking\\Banking.csproj",
       "packagesPath": "C:\\Users\\muham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\muham\\Desktop\\BankWithJson\\Banking\\obj\\",
+      "outputPath": "C:\\Users\\muham\\Banking\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\muham\\AppData\\Roaming\\NuGet\\NuGet.Config",

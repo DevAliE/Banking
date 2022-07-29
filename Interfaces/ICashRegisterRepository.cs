@@ -1,5 +1,6 @@
 ﻿using Banking.Models;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Banking.Interfaces
 {
@@ -7,11 +8,11 @@ namespace Banking.Interfaces
     {
         void Create(CashRegister banker);
 
-        void Update(int id, CashRegister banker);
+        void Update(long id, CashRegister banker);
 
-        void Delete(int id);
-
-        CashRegister Get(int id);
+        void Delete(long id);
+        [DataType(DataType.EmailAddress)]
+        CashRegister Get(long id);
 
         List<CashRegister> GetAll();
     }
